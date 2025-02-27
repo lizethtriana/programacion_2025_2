@@ -1,0 +1,48 @@
+
+*{
+    text-decoration:overline;
+}
+h1{
+    font-style: italic;
+    color: bisque;
+}
+h1{
+    color: blue;
+}
+
+.blue{
+    color: #0000ff;
+}
+.negrilla{
+    font-weight: bolder;
+}
+input[type=text]{
+    color:#0000ff;
+}
+input[type=email]{
+    color: blue;
+}
+input[value]{
+    font-style: italic;
+}
+h1{
+    font-size: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    text-decoration-color:blue;
+    text-decoration-style: wavy;
+    text-shadow: 1px 10px 10px black;
+    text-indent: 5px;
+    letter-spacing: 10px;
+    word-spacing: 0px;
+    word-wrap: break-word;
+    border-width: 3px;
+    border-color: rgb(49, 143, 115);
+    border-style: dashed;
+    border: 5px solid red;
+
+}
