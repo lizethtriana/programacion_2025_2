@@ -111,16 +111,34 @@ h1{
     animation-name: animacion1;
     animation-duration: 5s;
     animation-timing-function: linear;
-    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 @keyframes animacion1 {
-    from{
+    /* from{
         left: 0px;
         background-color: #1095ee;
     }
     to{
+        left: 100vw;
+        background-color: #ff25ff;
+    } */
+    0%{
         left: 0px;
+        background-color: #1095ee;
+    }
+    25%{
+      top: 300px;
+    }
+    50%{
+        border-radius: 0px;
+        box-shadow: 1px 1px 5px 10px #000;
+    }
+    75%{
+        height: 300px;
+    }
+    100%{
+        left: 100vw;
         background-color: #ff25ff;
     }
     
